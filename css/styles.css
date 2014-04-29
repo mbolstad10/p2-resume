@@ -1,4 +1,114 @@
 /* Your Website Styles */
+.one {
+  text-align: center;
+  font-size: 70px;
+  font-variant: uppercase;
+
+}
+.main-header {
+	height: 175px;
+	width: 1000px;
+	color:orange;
+	background-color: white;
+}
+
+body {
+	background: url("../img/flower.jpg");
+	background-repeat: no-repeat;
+    height: 1000px;
+    width: 1000px;
+	}  
+	 
+
+ p {
+	  font-size: 18px;
+	  line-height: 18px;
+	  word-spacing: .30em;
+	  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    }
+
+
+.feature,p{
+	
+	background: white;
+	width: 400px;
+	padding: 20px;
+		}
+
+nav li {
+	float: right;
+	list-style: none;
+	margin: 12px 10px 12px 0px;
+	background: orange;
+	color:white;
+		}
+
+.name h2{
+  margin: 10px 10px 0px 0px;
+  font-size: 25px;
+  color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Link States */
+nav a:link,
+nav a:visited {
+	color: ;
+	padding: 30px 30px 30px 30px;
+	text-decoration: none;
+	color: white;
+}
+ 
+nav a:hover,
+nav a:active {
+	background: red;
+	
+}
+ 
+#bio a:hover {
+	background: url("../img/print.png") no-repeat left center;
+}
+
+#resume a:hover {
+	background: url("../img/clip.png") no-repeat left center;
+}
+
+#port a:hover {
+	background: url("../img/pen.png") no-repeat left center;
+} 
+
+
+
+
+
+
+
 
 
 /* Show Grid */
