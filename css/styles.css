@@ -1,12 +1,13 @@
 /* Your Website Styles */
 .one {
   text-align: center;
-  font-size: 70px;
+  font-size: 100px;
   font-variant: uppercase;
+  padding-bottom: 0px;
 
 }
 .main-header {
-	height: 175px;
+	height: 300px;
 	width: 1000px;
 	color:orange;
 	background-color: white;
@@ -26,6 +27,11 @@ body {
 	  word-spacing: .30em;
 	  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
     }
+.tittle {
+
+
+
+}
 
 
 .feature,p{
@@ -43,10 +49,15 @@ nav li {
 	color:white;
 		}
 
-.name h2{
+h2 .name {
   margin: 10px 10px 0px 0px;
   font-size: 25px;
   color: orange;
+}
+
+section img+p {
+	display: inline;
+	margin: 50px 0px 0px;
 }
 
 
