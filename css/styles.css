@@ -1,16 +1,22 @@
 /* Your Website Styles */
 
-.one {
+
+  
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3em;
   text-align: center;
-  font-size: 100px;
-  font-variant: uppercase;
-  padding-bottom: 0px;
+  
+}
+ h1:hover {
+  background:  #66FFCC;
+  font-size: 5em;
+  color: white;
+}
+
 
 }
-hr{
-	float: center;
-	color: orange;
-}
+
 .main-header {
 	height: 300px;
 	width: 1000px;
@@ -19,44 +25,50 @@ hr{
 }
 .feature,p{
 	
-	background: white;
-	width: 400px;
-	padding: 20px;
+	width: 60%;
+	padding: 10%;
 		}
 
 body {
-	background: url("../img/flower.jpg");
-	background-repeat: no-repeat;
-    height: 1000px;
-    width: 1000px;
-    color:orange;
-    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
-	}  
+   width: 800px;
+   margin: 0 auto;
+  font-size: 1em%;
 
+}
+
+
+div{
+  width:100%;
+  height: 100%;
+  float: center;
+  
+}
 	 
 
- p {
-	  font-size: 18px;
-	  line-height: 18px;
-	  word-spacing: .30em;
-	  }
+ 
 
 
 
 ul {
-	  font-size: 18px;
-	  line-height: 18px;
-	  background: white;
-	  width: 1300px;
-	  width: 400px;
-	  padding: 40px;
+	  font-size: 1em;
+	  line-height: 1.5em;
+	  
+	  width: 20%;
+	  padding: 10%;
 	  text-align: top;
+
 	  
 }
-	 a .links {
-	 	text-align: center;
+.title{
+	font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+  width: 60%;
+	
+  
 
-	 }
+}
+	 
+
 
 
 
@@ -65,22 +77,40 @@ ul {
 
 
 nav li {
-	float: right;
-	list-style: none;
-	margin: 12px 10px 12px 0px;
-	background: orange;
-	color:white;
-		}
-
-h2 +.name {
-  margin: 10px 10px 0px 0px;
-  font-size: 25px;
-  color: orange;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  padding-left: 10%;
+  display: inline;
+  float: center;
+  list-style: none;
+  margin: 0% 12% 0 5%;
+  text-align: center;
+  
 }
+
+
+nav a:link, 
+nav a:visited {
+  color: #333;
+  padding: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover, 
+nav a:active {
+  color: #FF6600;
+  text-transform: -3px;
+  letter-spacing: 1em;
+  font-size: .5em;
+}
+
+
 
 section img+p {
 	display: inline;
-	margin: 50px 0px 0px;
+	margin: 50% ;
 
 }
 
@@ -111,42 +141,73 @@ section img+p {
 
 
 
-/* Link States */
-nav a:link,
-nav a:visited {
-	color: ;
-	padding: 30px 30px 30px 30px;
-	text-decoration: none;
-	color: white;
+/* mQ*/
+
+@media screen and (max-width:1260px) and (min-width: 1200px) {
+  body{
+    
+  }
 }
+
+/* =========
+destop 
+========= */
+
+@media screen and (max-width: 1000px){
+  body{
+    
+  }
+}
+
+/* =========
+tablet
+========= */
+
+@media screen and (max-width: 800px){
+  body{
+   
+      }
+p{
+    font-size: 1em;
+    width: 40%;
+  }
+
+  nav  {
+  	margin: -2%;
+    float: center;
+    text-align: center;
+    padding: 10%
+  }
+  h1{
+  	float: center;
+
+  }
+  
+  
+  
+  
+}
+
+
+/* =========
+mobile
+========= */
+@media screen and (max-width: 480px){
+  body{
+   
+  }
+
  
-nav a:hover,
-nav a:active {
-	background: red;
-	
-}
- 
-#bio a:hover {
-	background: url("../img/print.png") no-repeat left center;
-}
 
-#resume a:hover {
-	background: url("../img/clip.png") no-repeat left center;
+
+
+
+
+
+
+
+
+
 }
 
-#port a:hover {
-	background: url("../img/pen.png") no-repeat left center;
-} 
 
-
-
-
-
-
-
-
-
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
-}
